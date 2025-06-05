@@ -14,7 +14,8 @@
       display: flex;
       flex-direction: column;
     }
-.navbar {
+
+    .navbar {
   position: fixed;
   top: 0;
   left: 0;
@@ -23,23 +24,31 @@
   color: white;
   padding: 16px 32px;
   display: flex;
-  justify-content: space-between;
+    justify-content: space-between;
   align-items: center;
   z-index: 1000;
+
 }
 
-        .navbar h2 {
-      color: orange;
-      font-size: 24px;
-      margin-right: 1500px;
-    }
+.navbar h2 {
+  color: orange;
+  font-size: 24px;
+  margin-right: auto;
+}
 
-        .navbar nav a {
-      color: white;
-      margin-left: 20px;
-      text-decoration: none;
-      font-size: 16px;
-    } 
+.navbar nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
     .main {
       flex: 1;
       display: flex;
@@ -87,13 +96,13 @@
       .intro, .map-area {
         width: 100%;
         height: auto;
-        padding: 32px;
+        padding: 500px;
       }
 
       .intro h1 {
-        font-size: 32px;
+        font-size: 32px; 
       }
-            .navbar {
+                  .navbar {
         flex-direction: column;
         align-items: flex-start;
       }
@@ -101,4 +110,5 @@
       .navbar nav {
         margin-top: 8px;
       }
+
     }
