@@ -3,112 +3,106 @@
       padding: 0;
       box-sizing: border-box;
     }
-
+ 
     html, body {
       height: 100%;
       font-family: 'Titillium Web', sans-serif;
     }
-
+ 
     body {
-      background-image: url('../images/background-image.jpg');
+      background-color: blue;
       display: flex;
       flex-direction: column;
     }
-
+ 
     .navbar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: gray;
-  color: white;
+  background-color: rgb(2 , 10 , 82);
+  color: rgb(2 , 10 , 82);
   padding: 16px 32px;
   display: flex;
+ 
     justify-content: space-between;
   align-items: center;
   z-index: 1000;
-
+ 
 }
-
+ 
 .navbar h2 {
-  color: orange;
+  color: blue;
   font-size: 24px;
   margin-right: auto;
 }
-
+ 
 .navbar nav {
   display: flex;
   align-items: center;
 }
-
+ 
 .navbar nav a {
-  color: white;
+  color: blue;
   margin-left: 20px;
   text-decoration: none;
   font-size: 16px;
+  font-weight: bold;
 }
-
-
+ 
+ 
     .main {
       flex: 1;
       display: flex;
       flex-direction: row;
       overflow: hidden;
     }
-
+ 
     .intro {
       flex: 1;
-      color: white;
+      color: rgb(2 , 10 , 82);
       padding: 64px;
       display: flex;
       flex-direction: column;
       justify-content: center;
+      font-weight: bold;
     }
-
+ 
     .intro h1 {
       font-size: 48px;
       margin-bottom: 16px;
-      color: orange;
+      color: rgb(2 , 10 , 82);
     }
-
+ 
     .intro p {
       font-size: 18px;
       max-width: 500px;
-      color: white;
+      color: rgb(2 , 10 , 82);
       margin-bottom: 10px;
     }
-
+ 
     .map-area {
       flex: 1.5;
       height: 900px;
     }
-
+ 
     #map {
       height: 100%;
       width: 100%;
     }
-
+ 
     @media (max-width: 768px) {
       .main {
         flex-direction: column;
       }
-
+ 
       .intro, .map-area {
         width: 100%;
         height: auto;
-        padding: 500px;
+        padding: 32px;
       }
-
+ 
       .intro h1 {
-        font-size: 32px; 
+        font-size: 32px;
       }
-                  .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      .navbar nav {
-        margin-top: 8px;
-      }
-
     }
