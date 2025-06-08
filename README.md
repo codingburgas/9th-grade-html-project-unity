@@ -1,6 +1,6 @@
 # 🔥 Unity - A Firefighting Awareness Web App
 
-Welcome to **Unity** – a beginner-friendly web project designed to help both **citizens** and **firefighters** in the **Sofia region**. Made by 9th-grade students, this app provides a simple and helpful way to stay safe and informed about nearby fires.
+Welcome to **Unity** – A javascript project designed to help both **citizens** and **firefighters** in the **Sofia region**. Made by 9th-grade students, this app provides a simple and helpful way to stay safe and informed about nearby fires.
 
 ---
 
