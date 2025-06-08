@@ -37,6 +37,12 @@ This project was created by 9th-grade students as part of our programming journe
 -Contact proffessionals to deal with a fire situation, never try to do things yourself!
 
 ---
+## Made by:
+
+- Pavel Plamenov Parvanov-PPParvanov23@codingburgas.bg(9v)
+- Aleksandr Sergeevich Toder-ASToder23@codingburgas.bg(9b)
+- Persiqn Atanasov Tanchev-PATanchev23@codingburgas.bg(9v)
+- Dessislav Dimitrov Aleksandrov-DDAlexsandrov23@codingburgas.bg(9a)
 ##  Langauges used
 
 -  JavaScript (Vanilla)
@@ -46,11 +52,11 @@ This project was created by 9th-grade students as part of our programming journe
 ---
 ##  Technologies used used
 
--
--  
--  
--
--
+- Microsoft Teams
+- Power Point
+- Github
+- Microsoft Word
+
 
 
 
