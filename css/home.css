@@ -1,3 +1,17 @@
+:root{
+  --base-color:blue;
+  --base--variant:rgb(2, 10, 82);
+  --text--color: rgb(2, 10, 82);
+  --secondary--text: blue;
+}
+
+.darkmode {
+  --base-color: red;
+  --base--variant:rgb(82, 2, 2);
+  --text--color: rgb(82, 2, 2);
+  --secondary--text: red;
+}
+
 * {
       margin: 0;
       padding: 0;
@@ -10,7 +24,8 @@
     }
  
     body {
-      background-color: blue;
+      background-color: var(--base-color);
+      color: var(--text--color);
       display: flex;
       flex-direction: column;
     }
@@ -20,8 +35,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgb(2 , 10 , 82);
-  color: rgb(2 , 10 , 82);
+  background-color: var(--base--variant);
+  color: var(--secondary--text);
   padding: 16px 32px;
   display: flex;
  
@@ -32,7 +47,7 @@
 }
  
 .navbar h2 {
-  color: blue;
+  color: var(--secondary--text);
   font-size: 24px;
   margin-right: auto;
 }
@@ -43,14 +58,41 @@
 }
  
 .navbar nav a {
-  color: blue;
+  color: var(--secondary--text);
   margin-left: 20px;
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
 }
  
- 
+ #theme-switch{
+  height: 50px;
+  width: 50px;
+  margin-top: 70px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: var(--text--color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+#theme switch svg {
+  fill: var(--secondary--text);
+}
+#theme-switch svg:last-child{
+  display: none;
+}
+
+.darkmode #theme-switch svg:first-child{
+  display: none;
+}
+.darkmode #theme-switch svg:last-child{
+  display: block;
+}
+
     .main {
       flex: 1;
       display: flex;
@@ -60,7 +102,7 @@
  
     .intro {
       flex: 1;
-      color: rgb(2 , 10 , 82);
+      color: var(--text--color);
       padding: 64px;
       display: flex;
       flex-direction: column;
@@ -71,13 +113,13 @@
     .intro h1 {
       font-size: 48px;
       margin-bottom: 16px;
-      color: rgb(2 , 10 , 82);
+     color: var(--text--color);
     }
  
     .intro p {
       font-size: 18px;
       max-width: 500px;
-      color: rgb(2 , 10 , 82);
+      color: var(--text--color);
       margin-bottom: 10px;
     }
  
