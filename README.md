@@ -29,42 +29,28 @@ This project was created by 9th-grade students as part of our programming journe
 - Users can submit a simple fire report form.
 - Fires are shown using icons on a map or a list, depending on the feature.
 
-##  Tech Stack
+- --
+  
+## 📬 Want to Help?
+
+-Always indicate on the map of the app when there is a fire.
+-Contact proffessionals to deal with a fire situation, never try to do things yourself!
+
+---
+##  Langauges used
 
 -  JavaScript (Vanilla)
 -  HTML5
 -  CSS3
-  
-## 📬 Want to Help?
 
-Have ideas? Want to help us add new features like:
-
-    Firefighter contact system
-
-    Better map integration
-
-    Emergency tips
-
-Feel free to contribute or share your feedback!
 ---
+##  Technologies used used
 
-### Notes:
-
-- You can customize the **repository link** and **screenshot name (`preview.png`)** based on your actual files.
-- Let me know if you'd like to add more advanced features like a live API or geolocation!
-
-Would you like me to generate the actual code for the project as well?
-
-
-
-
-
-
-
-
-
-
-
+-
+-  
+-  
+-
+-
 
 
 
