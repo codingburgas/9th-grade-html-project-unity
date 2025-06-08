@@ -42,8 +42,8 @@
  body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background-color: blue;
-      color: rgb(2, 10, 82);
+      background-color:var(--base-color);
+      color: var(--text--color);
       text-align: center;
     }
         .navbar {
