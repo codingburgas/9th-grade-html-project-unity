@@ -44,6 +44,9 @@ Contact proffessionals to deal with a fire situation, never try to do things you
 - Aleksandr Sergeevich Toder- ASToder23@codingburgas.bg(9b)
 - Persiqn Atanasov Tanchev- PATanchev23@codingburgas.bg(9v)
 - Dessislav Dimitrov Aleksandrov- DDAlexsandrov23@codingburgas.bg(9a)
+
+  ---
+  
 ##  Langauges used:
 
 -  JavaScript (Vanilla)
