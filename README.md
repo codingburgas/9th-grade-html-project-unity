@@ -34,6 +34,7 @@ This project was created by 9th-grade students as part of our programming journe
 ## 📬 Want to Help?
 
 -Always indicate on the map of the app when there is a fire.
+
 -Contact proffessionals to deal with a fire situation, never try to do things yourself!
 
 ---
