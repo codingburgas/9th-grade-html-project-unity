@@ -22,3 +22,4 @@ See all currently reported fires on a live map interface. Get updates in real-ti
 -  JavaScript (Vanilla)
 -  HTML5
 -  CSS3
+![Fire Banner](https://example.com/fire-background.jpg)
