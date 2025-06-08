@@ -22,4 +22,8 @@ See all currently reported fires on a live map interface. Get updates in real-ti
 -  JavaScript (Vanilla)
 -  HTML5
 -  CSS3
-![Fire Banner](https://example.com/fire-background.jpg)
+<div style="position: relative; text-align: center;">
+  <img src="shutterstock_1610834731-1.jpg" alt="Background" style="width: 100%; opacity: 0.2; position: absolute; top: 0; left: 0; z-index: -1;">
+  <h1>🔥 FireSafe Sofia</h1>
+  <p>A firefighting awareness web app.</p>
+</div>
