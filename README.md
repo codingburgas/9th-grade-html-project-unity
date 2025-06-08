@@ -17,13 +17,61 @@ See all currently reported fires on a live map interface. Get updates in real-ti
 
 ---
 
+## Made By Students, For Safety
+
+This project was created by 9th-grade students as part of our programming journey. It’s simple, educational, and has a real-world purpose – helping keep Sofia safe from fires.
+
+---
+
+## 🧠 How It Works (Simplified)
+
+- Fire stations are listed as locations and shown on the site.
+- Users can submit a simple fire report form.
+- Fires are shown using icons on a map or a list, depending on the feature.
+
 ##  Tech Stack
 
 -  JavaScript (Vanilla)
 -  HTML5
 -  CSS3
-<div style="position: relative; text-align: center;">
-  <img src="shutterstock_1610834731-1.jpg" alt="Background" style="width: 100%; opacity: 0.2; position: absolute; top: 0; left: 0; z-index: -1;">
-  <h1>🔥 FireSafe Sofia</h1>
-  <p>A firefighting awareness web app.</p>
-</div>
+  
+## 📬 Want to Help?
+
+Have ideas? Want to help us add new features like:
+
+    Firefighter contact system
+
+    Better map integration
+
+    Emergency tips
+
+Feel free to contribute or share your feedback!
+---
+
+### Notes:
+
+- You can customize the **repository link** and **screenshot name (`preview.png`)** based on your actual files.
+- Let me know if you'd like to add more advanced features like a live API or geolocation!
+
+Would you like me to generate the actual code for the project as well?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
