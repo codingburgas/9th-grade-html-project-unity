@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire Incident Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="report.css">
+</head>
+<body>
+        <header class="navbar">
+    <h2>Unity</h2>
+    <nav>
+      <a href="centres.html"> Fire centres</a>
+      <a href="home.html">Home</a>
+    </nav>
+  </header>
+    <div id="map"></div>
+    <div id="fireForm" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Report Fire Incident</h2>
+            <form id="reportForm">
+                <div class="form-group">
+                    <label for="fireType">Type of Fire:</label>
+                    <select id="fireType" required>
+                        <option value="">Select fire type</option>
+                        <option value="wildfire">Wildfire</option>
+                        <option value="structure">Structure Fire</option>
+                        <option value="vehicle">Vehicle Fire</option>
+                        <option value="industrial">Industrial Fire</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="fireDate">When did it happen?</label>
+                    <input type="datetime-local" id="fireDate" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="description">Additional Details (optional):</label>
+                    <textarea id="description" placeholder="Describe the incident..."></textarea>
+                </div>
+                
+                <button type="submit">Report Fire</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="report.js"></script>
+</body>
+</html>
