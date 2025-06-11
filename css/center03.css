@@ -1,17 +1,18 @@
 :root{
-  --base-color:blue;
-  --base--variant:rgb(2, 10, 82);
-  --text--color: rgb(2, 10, 82);
-  --secondary--text: blue;
+  --base-color: rgb(234, 234, 234);
+  --base--variant:rgb(79, 79, 79);
+  --text--color: rgb(79, 79, 79);
+  --theme--color: rgb(79, 79, 79);
+  --secondary--text: rgb(234, 234, 234);
 }
  
 .darkmode {
-  --base-color: red;
-  --base--variant:rgb(82, 2, 2);
-  --text--color: rgb(82, 2, 2);
-  --secondary--text: red;
+  --base-color: rgb(79, 79, 79);
+  --base--variant: rgb(234, 234, 234);
+  --text--color: rgb(234, 234, 234);
+  --theme--color: rgb(234, 234, 234);
+  --secondary--text: rgb(79, 79, 79);
 }
- 
 * {
   margin: 0;
   padding: 0;
@@ -25,17 +26,23 @@ body, html {
   background-color: var(--base-color);
   color: var(--text--color);
 }
- .navbar {
+.navbar {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  background-color: var(--base--variant);
+  width: 97%;
+  height: 7%;
+  margin-top: 20px;
+  margin-left: 40px;
+  background-color:var(--base--variant);
   color: var(--secondary--text);
   padding: 16px 32px;
   display: flex;
+ justify-content: space-between;
+  align-items: center;
+  border-radius: 70px;
+  z-index: 1000;
 }
- 
 .navbar h2 {
   color: var(--secondary--text);
   font-size: 24px;
@@ -52,11 +59,12 @@ body, html {
   margin-left: 20px;
   text-decoration: none;
   font-size: 16px;
+  font-weight: bold;
 }
  
 #theme-switch{
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   margin-top: 70px;
   padding: 0;
   border-radius: 50%;
@@ -65,8 +73,8 @@ body, html {
   justify-content: center;
   align-items: center;
   position: fixed;
-  top: 20px;
-  left: 20px;
+  top: 30px;
+  left: 40px;
 }
 #theme switch svg {
   fill: var(--secondary--text);
@@ -86,7 +94,7 @@ body, html {
   text-align: center;
   font-size: 48px;
   margin-bottom: 100px;
-  margin-top: 120px;
+  margin-top: 150px;
 }
  
 .subheader {
@@ -97,7 +105,7 @@ body, html {
  
 .underheader {
   position: absolute;
-      top: 70px;
+      top: 100px;
       right: 30px;
       color: var(--text--color);
       font-size: 18px;
@@ -119,7 +127,7 @@ body, html {
  
 .section img {
   width: 600px;
-  height: 400px;
+  height: 350px;
   border-radius: 30px;
   border: 5px solid var(--base--variant);
 }

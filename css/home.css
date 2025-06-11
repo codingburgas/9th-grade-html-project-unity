@@ -1,17 +1,19 @@
 :root{
-  --base-color:blue;
-  --base--variant:rgb(2, 10, 82);
-  --text--color: rgb(2, 10, 82);
-  --secondary--text: blue;
+  --base-color: rgb(234, 234, 234);
+  --base--variant:rgb(79, 79, 79);
+  --text--color: rgb(79, 79, 79);
+  --theme--color: rgb(79, 79, 79);
+  --secondary--text: rgb(234, 234, 234);
 }
-
+ 
 .darkmode {
-  --base-color: red;
-  --base--variant:rgb(82, 2, 2);
-  --text--color: rgb(82, 2, 2);
-  --secondary--text: red;
+  --base-color: rgb(79, 79, 79);
+  --base--variant: rgb(234, 234, 234);
+  --text--color: rgb(234, 234, 234);
+  --theme--color: rgb(234, 234, 234);
+  --secondary--text: rgb(79, 79, 79);
 }
-
+ 
 * {
       margin: 0;
       padding: 0;
@@ -34,16 +36,18 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 97%;
+  margin-top: 20px;
+  margin-left: 40px;
   background-color: var(--base--variant);
   color: var(--secondary--text);
   padding: 16px 32px;
   display: flex;
- 
+  border-radius: 70px;
     justify-content: space-between;
   align-items: center;
-  z-index: 1000;
-  
+ 
+ 
 }
  
 .navbar h2 {
@@ -66,12 +70,13 @@
 }
  
  #theme-switch{
-  height: 50px;
-  width: 50px;
-  margin-top: 70px;
+  height: 60px;
+  width: 60px;
+  margin-top: 90px;
+  margin-left: 30px;
   padding: 0;
   border-radius: 50%;
-  background-color: var(--text--color);
+  background-color: var(--theme--color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,19 +85,19 @@
   left: 20px;
 }
 #theme switch svg {
-  fill: var(--secondary--text);
+  fill: var(--text--color);
 }
 #theme-switch svg:last-child{
   display: none;
 }
-
+ 
 .darkmode #theme-switch svg:first-child{
   display: none;
 }
 .darkmode #theme-switch svg:last-child{
   display: block;
 }
-
+ 
     .main {
       flex: 1;
       display: flex;
@@ -129,8 +134,10 @@
     }
  
     #map {
-      height: 100%;
-      width: 100%;
+      margin-top: 85px;
+      border-radius: 40px;
+      height: 90%;
+      width: 95%;
     }
  
     @media (max-width: 768px) {
@@ -148,3 +155,4 @@
         font-size: 32px;
       }
     }
+ 

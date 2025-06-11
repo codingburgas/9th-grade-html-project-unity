@@ -1,21 +1,21 @@
-  :root{
-  --base-color:blue;
-  --base--variant:rgb(2, 10, 82);
-  --text--color: rgb(2, 10, 82);
-  --secondary--text: blue;
-}
-
-.darkmode {
-  --base-color: red;
-  --base--variant:rgb(82, 2, 2);
-  --text--color: rgb(82, 2, 2);
-  --secondary--text: red;
+:root{
+  --base-color: rgb(234, 234, 234);
+  --base--variant:rgb(79, 79, 79);
+  --text--color: rgb(79, 79, 79);
+  --secondary--text: rgb(234, 234, 234);
 }
  
+.darkmode {
+  --base-color: rgb(79, 79, 79);
+  --base--variant: rgb(234, 234, 234);
+  --text--color: rgb(234, 234, 234);
+  --secondary--text: rgb(79, 79, 79);
+}
+
 #theme-switch{
-  height: 50px;
-  width: 50px;
-  margin-top: 70px;
+  height: 60px;
+  width: 60px;
+  margin-top: 80px;
   padding: 0;
   border-radius: 50%;
   background-color: var(--text--color);
@@ -23,8 +23,8 @@
   justify-content: center;
   align-items: center;
   position: fixed;
-  top: 20px;
-  left: 20px;
+  top: 30px;
+  left: 70px;
 }
 #theme switch svg {
   fill: var(--secondary--text);
@@ -50,16 +50,18 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 98%;
-  height: 40px;
-      background-color:var(--base--variant);
-      color: var(--secondary--text);
+  width: 90%;
+  height: 5%;
+  margin-top: 20px;
+  margin-left: 60px;
+  background-color:var(--base--variant);
+  color: var(--secondary--text);
   padding: 16px 32px;
   display: flex;
-    justify-content: space-between;
+ justify-content: space-between;
   align-items: center;
+  border-radius: 70px;
   z-index: 1000;
-
 }
 
 .navbar h2 {
@@ -82,7 +84,7 @@
 }
 
     h1 {
-      margin-top: 70px;
+      margin-top: 100px;
       font-size: 40px;
       font-weight: bold;
     }
@@ -116,6 +118,7 @@
     }
     .center-box img {
       width: 100%;
+      height: 350px;
       border-radius: 100px;
       border: 2px solid var(--base-color);
     }
